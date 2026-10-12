@@ -1,0 +1,41 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Environment variables & secrets
+.env
+*.env.local
+
+# ChromaDB & Local Persistence Storage
+data/chroma_db/
+data/uploads/
+chroma_db/
+uploads/
+*.db
+*.sqlite3
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# HuggingFace & Torch cache
+.cache/
+hf_models/

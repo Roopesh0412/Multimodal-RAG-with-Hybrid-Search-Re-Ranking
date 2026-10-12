@@ -1,0 +1,30 @@
+# Core Web & API Framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-multipart>=0.0.9
+
+# Document Ingestion & Multimodal OCR
+pymupdf>=1.24.0
+pytesseract>=0.3.10
+pillow>=10.2.0
+tiktoken>=0.7.0
+
+# Vector Storage & Hybrid Retrieval
+sentence-transformers>=3.0.0
+chromadb>=0.5.0
+rank-bm25>=0.2.2
+flashrank>=0.2.0
+numpy>=1.26.0
+
+# LLM Generation (OpenAI / Groq / Ollama Compatible)
+openai>=1.30.0
+
+# Interactive Frontend UI
+streamlit>=1.35.0
+requests>=2.31.0
+
+# Testing & Client
+pytest>=8.2.0
+httpx>=0.27.0
